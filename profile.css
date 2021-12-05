@@ -110,14 +110,20 @@
 }
 
 .navbar .navigation li a {
+  height: 4rem;
   font-size: 2rem;
   text-decoration: none;
   color: white;
+  -webkit-transition: 2s all;
+  transition: 2s all;
 }
 
 .navbar .navigation li a:hover {
   cursor: pointer;
   color: gray;
+  background-color: white;
+  -webkit-transition: 2s all;
+  transition: 2s all;
 }
 
 .education {
@@ -396,6 +402,7 @@
   font-size: 1rem;
   background-color: black;
   border: 1px solid white;
+  color: white;
 }
 
 .contact_us .contact_us_details .details .input_field input::-webkit-input-placeholder,

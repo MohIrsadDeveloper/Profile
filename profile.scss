@@ -88,17 +88,18 @@
 
         li {
             list-style: none;
-            margin: 0 3rem;  
+            margin: 0 3rem;
             a {
-                height: 4rem;
+                // height: 4rem;
+                padding: 1rem;
                 font-size: 2rem;
                 text-decoration: none;
                 color: white;
-                transition: 2s all;
+                transition: .5s all;
 
                 &:hover {
                     cursor: pointer;
-                    color: gray;
+                    color: black;
                     background-color: white;
                     transition: 2s all;
                 }

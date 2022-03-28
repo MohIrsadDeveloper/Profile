@@ -5,141 +5,255 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile</title>
-    <link rel="stylesheet" href="./profile.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Document</title>
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <!-- Bootstap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- External Css -->
+    <link rel="stylesheet" href="./index.css">
 </head>
 
 <body>
+    <header>
+        <div class="container-fluid bg-wallpaper">
+            <div class="container p-4">
+                <div class="row">
+                    <div class="col-4 col-md-3 img-photo mt-3">
+                        <img src="https://www.linkpicture.com/q/profile_16.png" alt="photo" class="img-thumbnail p-2">
+                    </div>
 
-    <div class="top_header">
-        <div class="content">
-            <div class="top_content">
-                <div class="image">
-                    <img src="./image/profile.png" alt="profile">
-                </div>
+                    <div class="col-7 header-content">
+                        <div class="content-1">
+                            <div class="greet">
+                                <i class="fa-solid fa-caret-down"></i>
+                                <span class="hello">Hello</span>
+                            </div>
+                            <h1>I'm MOH IRSAD IDRISI</h1>
+                            <h6>Full Stack Solution Architect</h6>
+                            <p>
+                                The crossover between design and programming has always been of interest to me, I've
+                                been lucky enough to work high profile websites. I have a wide range of skills that
+                                include back-end development using open source technologies (NodeJs), design (working
+                                closely with designers), front-end development (ReactJs, HTML5, CSS3, Bootstap,
+                                Javascript, Responsive, UX), database(MongoDB), load balancing (Varnish and Memcached)
+                            </p>
+                        </div>
 
-                <div class="desc">
-                    <span>Hello</span>
-                    <i class="fas fa-caret-down"></i>
-                    <h1>I'm MOH IRSAD IDRISI</h1>
-                    <h4>Full Stack Developer</h4>
+                        <div class="social-icons">
+                            <ul class="d-flex list-unstyled">
+                                <a href="https://www.facebook.com" target="_blank">
+                                    <li class="list"><i class="fa-brands fa-facebook"></i></li>
+                                </a>
+                                <a href="https://github.com/MohIrsadDeveloper" target="_blank">
+                                    <li class="list"><i class="fa-brands fa-github"></i></li>
+                                </a>
+                                <a href="https://www.linkedin.com" target="_blank">
+                                    <li class="list"><i class="fa-brands fa-linkedin"></i></li>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <li class="list"><i class="fa-brands fa-stack-overflow"></i></li>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <li class="list"><i class="fa-brands fa-telegram"></i></li>
+                                </a>
+                            </ul>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
-
-        <div class="social_icon" style="font-size:2rem">
-            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"
-                    style="color: #1197f5;"></i></a>
-            <a href="https://github.com/MohIrsadDeveloper" target="_blank"><i class="fab fa-github-square"
-                    style="color: black;"></i></a>
-            <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"
-                    style="color: #0a66c2;"></i></a>
-            <a href="phone" target="_blank"><i class="fas fa-phone-square-alt" style="color: green;"></i></a>
-        </div>
-    </div>
-
-    <header id="navbar" class="navbar">
-        <ul class="navigation">
-            <li class="nav" id="nav1"><a href="#">Home</a></li>
-            <li class="nav" id="nav2"><a href="#education">Education</a></li>
-            <li class="nav" id="nav3"><a href="#skill">Skills</a></li>
-            <li class="nav" id="nav4"><a href="#contact">Contact</a></li>
-            <li class="nav" id="nav5"><a href="#footer">About</a></li>
-        </ul>
     </header>
 
-    <section id="education" class="education">
-        <h1>Education</h1>
-
-        <div class="education_details">
-
-            <div class="left_part">
-
-                <div class="firstContent">
-                    <i class="fas fa-user-graduate i-font" id="i-font1"></i>
-                    <span>2018-2021</span>
-                    <i class="fas fa-caret-right right"></i>
-                </div>
-
-                <div class="secondContent">
-                    <i class="fas fa-briefcase i-font" id="i-font2"></i>
-                    <span>Higher Secondary</span>
-                    <p>I Completed my Higher Secondary from Maharashtra Board with Acheiving <strong>70.31%</strong>.
-                    </p>
-                </div>
-
-                <div class="thirdContent">
-                    <i class="fas fa-school i-font" id="i-font3"></i>
-                    <span>2016</span>
-                    <i class="fas fa-caret-right right"></i>
-                </div>
-            </div>
-
-            <div class="right_part">
-                <div class="firstContent">
-                    <span>Graduate</span>
-                    <p>
-                        I have Complete my Graduate from <strong>Mumbai University</strong>.
-                    </p>
-                </div>
-
-                <div class="secondContent">
-                    <span>2016-2018</span>
-                    <i class="fas fa-caret-left left"></i>
-                </div>
-
-                <div class="thirdContent">
-                    <span>SSC</span>
-                    <p>I done my School Section from Maharashtra Board.
-                    </p>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <section id="contact" class="contact_us">
-        <h1>Contact Us</h1>
-
-        <div class="contact_us_details">
-            <div class="map">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15073.518633755873!2d72.8583759268153!3d19.178613059315094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b709a60706cd%3A0x7dda421592e634de!2sSunni%20Hanfi%20Barelvi%20Mohammadia%20Masjid!5e0!3m2!1sen!2sin!4v1637676508200!5m2!1sen!2sin"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-
-            <div class="details">
-                <div class="content">
-                    <div class="address">
-                        <p>Malad East, Mumbai</p>
-                        <p>Maharashtra, India</p>
-                    </div>
-
-                    <div class="contact">
-                        <p>Whatsapp: +91 9137130968</p>
-                        <p>Mobile: +91 9870229586</p>
-                        <p>E-mail: idrisimohdirshad@gmail.com</p>
-                    </div>
-                </div>
-
-                <div class="input_field">
-                    <input type="text" name="name" id="name" placeholder="Name">
-                    <input type="text" name="name" id="email" placeholder="Email">
-                    <input type="text" name="name" id="phone" placeholder="Phone">
-                    <textarea name="message" id="message" cols="50" rows="6" placeholder="Message"></textarea>
-                    <button type="submit" id="button">SUBMIT</button>
-                </div>
+    <section class="menu-section">
+        <div class="container-fluid menu">
+            <div class="container i_width">
+                <ul class="d-flex flex-row justify-content-between list-unstyled">
+                    <li class="list">
+                        <a href="#skill">Skills</a>
+                    </li>
+                    <li class="list">
+                        <a href="#experience">Experience</a>
+                    </li>
+                    <li class="list">
+                        <a href="#education">Education</a>
+                    </li>
+                    <li class="list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                    <li class="list">
+                        <a href="#project">Projects</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </section>
 
-    <footer id="footer">
-        <p class="rights"> &copy; Edureka 2021. All Rights Reserved</p>
-        <p>Created By <span>Developer Irsad</span></p>
+    <section id="skill">
+        <div class="container-fluid bg-dark p-5">
+            <div class="container">
+                <h1 class="skill-h1 text-white">Skills</h1>
+
+                <ul class="skill-icons list-unstyled d-flex justify-content-evenly flex-wrap mt-5">
+                    <li class="list">
+                        <img src="https://www.aakashhanda.me/images/react.png" alt="react">
+                    </li>
+                    <li class="list">
+                        <img src="https://www.aakashhanda.me/images/node.png" alt="node">
+                    </li>
+                    <li class="list">
+                        <img src="https://www.aakashhanda.me/images/mongo.png" alt="mongo">
+                    </li>
+                    <li class="list">
+                        <img src="https://www.aakashhanda.me/images/html.png" alt="html">
+                    </li>
+                    <li class="list">
+                        <img src="https://www.aakashhanda.me/images/css.png" alt="css">
+                    </li>
+                    <li class="list">
+                        <img src="https://www.freepnglogos.com/uploads/javascript/javascript-online-logo-for-website-0.png"
+                            alt="javascript">
+                    </li>
+                    <li class="list">
+                        <img src="https://toppng.com//public/uploads/preview/bootstrap-featured-image-bootstrap-3-logo-11563293130teouf93qpu.png"
+                            alt="bootstrap">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section id="experience">
+        <div class="container">
+            <h1 class="experience-h1"></h1>
+        </div>
+    </section>
+
+    <section id="project">
+        <div class="container">
+            <div class="row">
+                <h1 class="project-h1 text-center">Project</h1>
+                <div class="zomato col-6 border-end">
+                    <a href="https://zomatofinal.netlify.app/" class="live" target="_blank">Live</a>
+                    <h3>Zomato</h3>
+                    <div class="project-1">
+                        <img src="https://www.linkpicture.com/q/screencapture-zomatofinal-netlify-app-2022-03-28-16_23_56.png"
+                            alt="zomato">
+                    </div>
+                </div>
+                <div class="flipkart col-6">
+                    <a href="https://zomatofinal.netlify.app/" class="live" target="_blank">Live</a>
+                    <h3>Flipkart</h3>
+                    <div class="project-2">
+                        <img src="https://www.linkpicture.com/q/screencapture-zomatofinal-netlify-app-2022-03-28-16_23_56.png"
+                            alt="zomato">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section id="education">
+        <div class="container-fluid bg-dark">
+            <div class="container education">
+                <h1 class="edu-h1 text-center">Education</h1>
+                <div class="row">
+                    <div class="col-6 left">
+                        <div class="graduate">
+                            <span class="span-1">2018-2021</span>
+                            <i class="fa-solid fa-caret-right caret-1"></i>
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </div>
+                        <div class="hsc">
+                            <span class="span-course-2">
+                                Higher Secondary
+                            </span>
+                            <p class="p-course-2">I Completed my Higher Secondary from Maharashtra Board with Acheiving
+                                70.31%.</p>
+                        </div>
+                        <div class="ssc">
+                            <span class="span-3">2016</span>
+                            <i class="fa-solid fa-caret-right caret-3"></i>
+                            <i class="fa-solid fa-school"></i>
+                        </div>
+                    </div>
+
+                    <div class="col-6 right">
+                        <div class="graduate">
+                            <span class="span-course-1">
+                                Graduate
+                            </span>
+                            <p class="p-course-1">I have Completed My Graduate from Mumbai University</p>
+                        </div>
+                        <div class="hsc">
+                            <span class="span-2">2018-2021</span>
+                            <i class="fa-solid fa-caret-left caret-2"></i>
+                            <i class="fa-solid fa-briefcase"></i>
+                        </div>
+                        <div class="school">
+                            <span class="span-course-3">
+                                Secondary
+                            </span>
+                            <p class="p-course-3">I have Completed My Secondary from Mumbai University</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container-fluid bg-dark text-white">
+            <div class="container">
+                <h1 class="contact-h1 text-center">Contact</h1>
+                <div class="row p-5">
+                    <div class="col-lg-6">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.380001710255!2d72.86494201475992!3d19.17859805372357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b709a60706cd%3A0x7dda421592e634de!2sSunni%20Hanfi%20Barelvi%20Mohammadia%20Masjid!5e0!3m2!1sen!2sin!4v1648473194762!5m2!1sen!2sin" height="400" width="100%"></iframe>
+                    </div>
+
+                    <div class="col-md-6 p-md-5">
+                        <div class="c-detail d-flex">
+                            <div class="left me-5 border-end">
+                                <h5 class="text-center">Malad East, Mumbai Maharashtra India</h5>
+                            </div>
+                            <div class="right">
+                                <h5>Whatsapp: +91 9137130968</h5>
+                                <h5>Mobile: +91 9137130968</h5>
+                                <h5>E-mail: idrisimohdirshad@gmail.com</h5>
+                            </div>
+                        </div>
+                        <div class="form mt-5">
+                            <form>
+                                <input type="text" name="name" id="name" placeholder="Name" class="bg-dark">
+                                <input type="email" name="email" id="email" placeholder="Email" class="bg-dark">
+                                <input type="tel" name="phone" id="phone" placeholder="Phone" class="bg-dark phone">
+                                <textarea name="text" id="text" cols="30" rows="10" placeholder="Message" class="bg-dark text-white">Message
+                                </textarea>
+                                <button class="btn-primary">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center p-4 text-white">
+        <h4>&copy; Edureka 2022. All Right Reserved</h4>
+        <h5>Created By <span class="bg-yellow">MohIrsadDeveloper</span></h5>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

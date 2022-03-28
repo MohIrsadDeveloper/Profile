@@ -1,0 +1,372 @@
+.bg-wallpaper {
+  background-image: url("https://www.linkpicture.com/q/background_16.jpg");
+  background-size: 100% 100%;
+}
+
+.img-photo img {
+  height: 300px;
+}
+
+.greet {
+  position: relative;
+  top: 20px;
+  color: white;
+}
+
+.hello {
+  background-color: cadetblue;
+  padding: 8px 12px;
+  position: absolute;
+  top: 2px;
+  left: 10px;
+}
+.fa-caret-down {
+  color: cadetblue;
+  position: absolute;
+  top: 28px;
+  left: 20px;
+  font-size: 30px;
+}
+
+.content-1 h1 {
+  padding-top: 70px;
+}
+
+.social-icons .list-unstyled li {
+  font-size: 60px;
+  color: rgb(154, 154, 232);
+  margin-right: 30px;
+}
+
+/* Menu */
+.i_width {
+  width: 50%;
+}
+
+.menu {
+  background-color: cadetblue;
+  height: 60px;
+}
+
+.menu .list a {
+  text-decoration: none;
+  font-size: 26px;
+  padding: 13px 20px;
+  line-height: 2.3;
+  font-weight: 600;
+  color: white;
+}
+
+.menu .list a:hover {
+  background-color: white;
+  color: cadetblue;
+}
+
+/* Skills */
+.skill-icons .list img {
+  height: 100px;
+  width: 100px;
+}
+
+.skill-h1 {
+  text-align: center;
+  padding: 10px 30px 40px;
+  border-bottom: 4px double rgba(247, 197, 106, 0.35);
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid lightgray;
+}
+
+/* Project */
+.project-h1 {
+  color: cadetblue;
+  padding: 10px 30px 20px;
+  margin-bottom: 30px;
+  border-bottom: 4px double rgba(247, 197, 106, 0.35);
+}
+.project-1,
+.project-2 {
+  height: 500px;
+  width: 100%;
+  border: 1px solid lightgray;
+}
+
+.project-1 img,
+.project-2 img {
+  height: 100%;
+  width: 100%;
+}
+
+.live {
+  font-size: 26px;
+  float: right;
+  margin-right: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Education */
+#education .bg-dark {
+  padding: 80px;
+  color: white;
+}
+
+.edu-h1, .contact-h1, .skill-h1 {
+  padding-bottom: 20px;
+  border-bottom: 4px double rgba(247, 197, 106, 0.35);
+}
+/* left */
+.education .left {
+  height: 500px;
+  border-right: 1px solid white;
+  margin: 20px 0;
+  position: relative;
+}
+.education .right {
+  margin: 20px 0;
+  position: relative;
+}
+
+.span-left-1 {
+  font-weight: bold;
+  background-color: cadetblue;
+  padding: 10px;
+  position: absolute;
+  right: 80px;
+  top: 34px;
+}
+.span-1 {
+  font-weight: bold;
+  background-color: cadetblue;
+  padding: 10px;
+  position: absolute;
+  right: 80px;
+  top: 34px;
+}
+.span-2 {
+  font-weight: bold;
+  background-color: cadetblue;
+  padding: 10px;
+  position: absolute;
+  left: 80px;
+  top: 200px;
+}
+.span-3 {
+  font-weight: bold;
+  background-color: cadetblue;
+  padding: 10px 30px;
+  position: absolute;
+  right: 80px;
+  top: 400px;
+}
+.caret-1 {
+  font-size: 30px;
+  color: cadetblue;
+  position: absolute;
+  right: 71px;
+  top: 40px;
+}
+.caret-2 {
+  font-size: 30px;
+  color: cadetblue;
+  position: absolute;
+  left: 71px;
+  top: 206px;
+}
+.caret-3 {
+  font-size: 30px;
+  color: cadetblue;
+  position: absolute;
+  right: 71px;
+  top: 408px;
+}
+.fa-graduation-cap {
+  font-size: 30px;
+  background-color: cadetblue;
+  border-radius: 50%;
+  padding: 12px;
+  position: absolute;
+  right: -30px;
+  top: 26px;
+}
+.fa-briefcase {
+  font-size: 30px;
+  background-color: cadetblue;
+  border-radius: 50%;
+  padding: 12px;
+  position: absolute;
+  left: -30px;
+  top: 200px;
+}
+.fa-school {
+  font-size: 30px;
+  background-color: cadetblue;
+  border-radius: 50%;
+  padding: 12px;
+  position: absolute;
+  right: -30px;
+  top: 400px;
+}
+.span-left-2 {
+  background-color: cadetblue;
+  padding: 10px;
+  position: absolute;
+  right: 40px;
+  top: 120px;
+}
+
+/* right */
+.span-course-1 {
+  padding: 8px 12px;
+  border: 3px double rgba(247, 197, 106, 0.35);
+  font-weight: bold;
+  position: absolute;
+  left: 80px;
+  top: 30px;
+}
+.span-course-2 {
+  padding: 8px 12px;
+  border: 3px double rgba(247, 197, 106, 0.35);
+  font-weight: bold;
+  position: absolute;
+  right: 80px;
+  top: 200px;
+}
+.span-course-3 {
+  padding: 8px 12px;
+  border: 3px double rgba(247, 197, 106, 0.35);
+  font-weight: bold;
+  position: absolute;
+  left: 80px;
+  top: 400px;
+}
+.p-course-1{
+  position: absolute;
+  left: 80px;
+  top: 80px;
+}
+.p-course-2{
+  position: absolute;
+  width: 50%;
+  right: 50px;
+  top: 260px;
+}
+.p-course-3{
+  position: absolute;
+  left: 80px;
+  top: 450px;
+}
+
+/* Contact */
+input, textarea  {
+  outline: white;
+  padding: 8px 12px;
+  margin-bottom: 16px;
+  border: 2px solid white;
+  width: 48%;
+}
+.phone, textarea {
+  width: 97%;
+}
+
+input::placeholder {
+  color: white;
+  text-indent: 10px;
+}
+button {
+border: none;
+padding: 8px 26px;
+}
+
+/* footer */
+footer {
+  background-color: gray;
+}
+.bg-yellow {
+  color: #e8c32f;
+}
+@media only screen and (max-width: 576px) {
+  .i_width {
+    width: 100%;
+  }
+  .img-photo img {
+    height: 220px;
+  }
+  .social-icons .list-unstyled li {
+    font-size: 30px;
+  }
+  .menu .list a {
+    line-height: 3;
+  }
+  .menu .list a {
+    font-size: 20px;
+  }
+  .p-course-1,.p-course-3{
+    width: 100%;
+  }
+  .p-course-2 {
+    width: 100%;
+    top: 270px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .img-photo img {
+    height: 220px;
+  }
+  .i_width {
+    width: 100%;
+  }
+  .social-icons .list-unstyled li {
+    font-size: 40px;
+  }
+  .menu .list a {
+    font-size: 20px;
+    line-height: 3;
+  }
+  .p-course-2{
+    position: absolute;
+    width: 80%;
+    right: 50px;
+    top: 270px;
+  }
+}
+
+/*  for tablet */
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .img-photo img {
+    height: 220px;
+  }
+  .i_width {
+    width: 80%;
+  }
+  .menu .list a {
+    line-height: 3;
+  }
+  .menu .list a {
+    font-size: 20px;
+  }
+  .p-course-2{
+    position: absolute;
+    width: 80%;
+    right: 50px;
+    top: 260px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .i_width {
+    width: 80%;
+  }
+  .menu .list a {
+    line-height: 3;
+  }
+  .menu .list a {
+    font-size: 20px;
+  }
+
+  
+}

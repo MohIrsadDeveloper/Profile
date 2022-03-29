@@ -290,8 +290,9 @@ footer {
   color: #e8c32f;
 }
 @media only screen and (max-width: 576px) {
-  .i_width {
-    width: 100%;
+  .bg-wallpaper {
+    background-color: whitesmoke;
+    background-image: none;
   }
   .img-photo img {
     height: 220px;
@@ -299,12 +300,23 @@ footer {
   .social-icons .list-unstyled li {
     font-size: 30px;
   }
+  .menu {
+    background-color: cadetblue;
+    height: auto;
+    padding: 20px;
+  }
+  .i_width {
+    width: 100%;
+    text-align: center;
+  }
   .menu .list a {
     line-height: 3;
-  }
-  .menu .list a {
     font-size: 20px;
   }
+  .menu ul li {
+    border-bottom: 1px solid white;
+  }
+  
   .p-course-1,.p-course-3{
     width: 100%;
   }
@@ -312,20 +324,32 @@ footer {
     width: 100%;
     top: 270px;
   }
+  .c-detail h5 {
+    font-size: 12px;
+  }
 }
 @media only screen and (min-width: 576px) and (max-width: 768px) {
   .img-photo img {
     height: 220px;
   }
-  .i_width {
-    width: 100%;
-  }
   .social-icons .list-unstyled li {
     font-size: 40px;
   }
+  .menu {
+    background-color: cadetblue;
+    height: auto;
+    padding: 20px;
+  }
+  .i_width {
+    width: 100%;
+    text-align: center;
+  }
   .menu .list a {
-    font-size: 20px;
     line-height: 3;
+    font-size: 20px;
+  }
+  .menu ul li {
+    border-bottom: 1px solid white;
   }
   .p-course-2{
     position: absolute;
